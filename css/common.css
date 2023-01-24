@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* 검색창(.search) */
+#header .search {
+    position: absolute; right: 320px; top: 50%; 
+    transform: translateY(-50%);
+}
+#header .search #sbox {
+    width: 169px; border: none; outline: none;
+    text-indent: 1em; 
+}
+#header .search label { cursor: pointer; }
+
+/* 로고와 네비게이션 */
+
+#header .depth2 a {
+    padding: 18px 0; display: block; 
+    border-bottom: 1px solid #999; 
+    transition: all 0.5s;
+}
+#header .depth2 li:last-child a { border-bottom: none; }
+#header .depth2 li:hover a { background: #00529b; 
+    color: #dfe9fe; }
+
+
+/* footer 구역 */
+#footer { background: #333; padding: 30px 0; 
+    text-align: center; font-size: 12px; 
+    line-height: 18px; 
+    color: #ddd;
+}
+
+#footer .info { padding: 20px 0px; }
+#footer .info span { padding: 5px 20px; }
